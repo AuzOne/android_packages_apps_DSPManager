@@ -6,6 +6,9 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.support.v7.widget.CardView;
+import android.view.ViewGroup
+import android.widget.FrameLayout
 
 import com.bel.android.dspmanager.R;
 import com.bel.android.dspmanager.preference.EqualizerPreference;
