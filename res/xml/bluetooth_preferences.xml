@@ -83,7 +83,9 @@
 
     <PreferenceCategory
         android:title="@string/pref_headset_virtual_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.headphone.enable"
             android:summaryOn="@string/pref_headset_virtual_summary_on"
