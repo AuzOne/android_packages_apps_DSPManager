@@ -3,9 +3,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
 
     <PreferenceCategory
         android:title="@string/pref_dsp_title">
@@ -29,9 +27,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <PreferenceCategory
         android:title="@string/pref_bassboost_title">
 
@@ -53,9 +49,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <PreferenceCategory
         android:title="@string/pref_equalizer_title">
 
@@ -89,9 +83,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <PreferenceCategory
         android:title="@string/pref_headset_virtual_title">
 

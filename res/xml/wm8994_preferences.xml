@@ -3,9 +3,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!--  Speaker options -->
     <PreferenceCategory
         android:key="wm8994_internal_speaker_category"
@@ -20,9 +18,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!--  Headset options -->
     <PreferenceCategory
         android:key="wm8994_headphone_amp_category"
@@ -38,9 +34,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!--  Microphone recording options -->
     <PreferenceCategory
         android:key="wm8994_microphone_recording_category"
@@ -58,9 +52,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!-- Signal Processing -->
     <PreferenceCategory
         android:key="wm8994_signal_processing_category"
@@ -99,9 +91,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!--  D/AC, A/DC -->
     <PreferenceCategory
         android:key="wm8994_dac_config_category"
@@ -123,9 +113,7 @@
 	</android.support.v7.widget.CardView>
 	<android.support.v7.widget.CardView
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:cardElevation="5dp"
-	android:cardMaxElevation="10dp">
+	android:layout_height="wrap_content">
     <!-- Codec settings -->
     <PreferenceCategory
         android:key="wm8994_codec_optimization_category"
