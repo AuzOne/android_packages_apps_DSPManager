@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.bel.android.dspmanager" android:versionCode="2"
 	android:versionName="2.0">
-
-    <uses-sdk android:minSdkVersion="21"/>
+	<uses-sdk
+	    android:minSdkVersion="7"
+	    android:targetSdkVersion="22" />
 
 	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>
 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
