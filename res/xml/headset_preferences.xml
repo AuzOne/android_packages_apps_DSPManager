@@ -7,7 +7,9 @@
 
     <PreferenceCategory
         android:title="@string/pref_dsp_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.compression.enable"
             android:summaryOn="@string/pref_dsp_summary_on"
@@ -23,14 +25,14 @@
             android:title="@string/pref_effect_title"
             android:entryValues="@array/compression_modes_values"/>
 
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
-	<android.support.v7.widget.CardView
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+
     <PreferenceCategory
         android:title="@string/pref_bassboost_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.bass.enable"
             android:summaryOn="@string/pref_bassboost_summary_on"
@@ -45,14 +47,14 @@
             android:defaultValue="0"
             android:title="@string/pref_effect_title"
             android:entryValues="@array/bassboost_modes_values" />
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
-	<android.support.v7.widget.CardView
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+
     <PreferenceCategory
         android:title="@string/pref_equalizer_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.tone.enable"
             android:summaryOn="@string/pref_equalizer_summary_on"
@@ -79,14 +81,14 @@
             android:title="@string/pref_equalizer_loudness_title"
             android:entryValues="@array/equalizer_loudness_values"/>
 
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
-	<android.support.v7.widget.CardView
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+
     <PreferenceCategory
         android:title="@string/pref_headset_virtual_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.headphone.enable"
             android:summaryOn="@string/pref_headset_virtual_summary_on"
@@ -102,6 +104,7 @@
             android:entryValues="@array/headphone_modes_values"
             android:title="@string/pref_room_title" />
 
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
+
 </PreferenceScreen>

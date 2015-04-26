@@ -6,7 +6,9 @@
 	android:layout_height="wrap_content">
     <PreferenceCategory
         android:title="@string/pref_bassboost_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.bass.enable"
             android:disableDependentsState="false"
@@ -22,14 +24,14 @@
             android:title="@string/pref_effect_title"
             android:entryValues="@array/bassboost_modes_values" />
 
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
-	<android.support.v7.widget.CardView
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+
     <PreferenceCategory
         android:title="@string/pref_equalizer_title">
-
+		<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
         <CheckBoxPreference
             android:key="dsp.tone.enable"
             android:disableDependentsState="false"
@@ -48,6 +50,7 @@
         <com.bel.android.dspmanager.preference.EqualizerPreference 
             android:key="dsp.tone.eq.custom" />
 
+		</android.support.v7.widget.CardView>
     </PreferenceCategory>
-	</android.support.v7.widget.CardView>
+
 </PreferenceScreen>
