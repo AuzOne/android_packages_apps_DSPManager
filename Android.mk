@@ -9,7 +9,8 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
 	android-support-v13 \
-	android-support-v7-cardview
+	android-support-v7-cardview \
+	android-support-v7-recyclerview
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
@@ -20,11 +21,13 @@ LOCAL_OVERRIDES_PACKAGES := MusicFX
 include $(BUILD_PACKAGE)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    frameworks/support/v7/cardview/res
+    frameworks/support/v7/cardview/res \
 
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
-    --extra-packages android.support.v7.cardview
+    --extra-packages android.support.v7.cardview \
+    --extra-packages android.support.v7.recyclerview
+
 
 # Use the folloing include to make our test apk.
 include $(call all-makefiles-under,$(LOCAL_PATH))
