@@ -18,21 +18,42 @@
     <color name="off_white">#ffdedede</color>
     <color name="black">#ff000000</color>
     <color name="grid_lines">#22ffffff</color>
-    <color name="cb">#88bbffff</color>
-    <color name="freq_hl">#2000ddff</color>
-    <color name="freq_hl2">#4033b5e5</color>
+    <color name="cb">#88333333</color>
+    <color name="freq_hl">#20888888</color>
+    <color name="freq_hl2">#40777777</color>
     <color name="eq_red">#80ff0000</color>
     <color name="eq_yellow">#80f0ff00</color>
     <color name="eq_holo_bright">#8000ddff</color>
     <color name="eq_holo_blue">#8033b5e5</color>
     <color name="eq_holo_dark">#800099cc</color>
-    <color name="cb_shader">#ffccffff</color>
-    <color name="cb_shader_alpha">#44ccffff</color>
-    <color name="action_bar_color">#ff0d0d0d</color>
-    <color name="tab_text_color">#ff009688</color>
+    <color name="cb_shader">#ff37474f</color>
+    <color name="cb_shader_alpha">#0037474f</color>
+    <color name="action_bar_color">@color/material_blue_grey_500</color>
+    <color name="tab_text_color">@color/white</color>
+
+    <color name="dark">@color/material_blue_grey_950</color>
+    <color name="dark2">@color/material_blue_grey_900</color>
+    <drawable name="pager_background">@color/material_blue_grey_700</drawable>
+    <color name="eq_color_1">#1003A9F4</color>
+    <color name="eq_color_2">#2003A9F4</color>
+    <color name="eq_color_3">#4003A9F4</color>
+    <color name="eq_color_4">#a003A9F4</color>
+    <color name="eq_color_5">#d003A9F4</color>
 
     <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff263238</color>
-    <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff009688</color>
+    <color name="theme_primary">@color/material_blue_grey_500</color>
+    <color name="theme_primary_dark">@color/material_blue_grey_600</color>
+    <color name="theme_accent">@color/material_blue_grey_700</color>
+    <color name="color_control">@color/material_blue_grey_700</color>
+    <!-- Color template. -->
+    <color name="material_blue_grey_50">#ffECEFF1</color>
+    <color name="material_blue_grey_100">#ffCFD8DC</color>
+    <color name="material_blue_grey_200">#ffB0BEC5</color>
+    <color name="material_blue_grey_500">#ff607D8B</color>
+    <color name="material_blue_grey_600">#ff546E7A</color>
+    <color name="material_blue_grey_700">#ff455A64</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+
 </resources>
